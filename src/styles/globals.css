@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.input_field {
+  @apply tracking-wide w-full py-3 bg-transparent focus:outline-none border-b border-gray-100/40 text-white;
+}
